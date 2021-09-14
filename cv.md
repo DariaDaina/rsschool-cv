@@ -2,8 +2,8 @@
 
 ## Contacts
 
-**E-mail:** d.d.tsukanova@gmail.com
-**Telegram:** @DariaDaina
+**E-mail:** d.d.tsukanova@gmail.com  
+**Telegram:** @DariaDaina  
 **GitHub:** [DariaDaina](https://github.com/DariaDaina)
 
 ## Objective
@@ -46,29 +46,31 @@ function getMiddle(s) {
 
 ## Employment History
 
-**Moscow University of marketing, LLC**
+**Moscow University of marketing, LLC**  
 _Content Manager_
 
 - SEO optimization
 - smm management (Instagram, Facebook)
 - creating, editing, publishing content with diffrent CMS (Bitrix, Joomla, Diafan, Wordpress, etc)
-  December 2018 - December 2019
 
-**Advertising Production Company Effect**
+December 2018 - December 2019
+
+**Advertising Production Company Effect**  
 _Internship_
 
 - web development assistance (HTML+CSS+JS)
 - content filling of website
-  May 2016 - July 2016
+
+May 2016 - July 2016
 
 ## Education
 
-**Russian Technological University (MIREA),**
-_B.S. in Information systems_
+**Russian Technological University (MIREA),**  
+_B.S. in Information systems_  
 Graduated - March 2021
 
-**Plekhanov Russian University of Economics,**
-_Diploma in Information systems (cum laude)_
+**Plekhanov Russian University of Economics,**  
+_Diploma in Information systems (cum laude)_  
 Graduated - July 2017
 
 ## English level
