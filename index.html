@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/base16/dracula.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!--<nav class="nav">
+        <div class="nav__row">
+          <a href="#">
+            <img src="./img/logo.png" alt="Logo" class="nav__logo" />
+          </a>
+          <ul class="nav__menu">
+            <li><a href="#contacts">contacts</a></li>
+            <li><a href="#">objective</a></li>
+            <li><a href="#">skills</a></li>
+            <li><a href="#">code</a></li>
+            <li><a href="#">employment</a></li>
+            <li><a href="#">education</a></li>
+            <li><a href="#">english</a></li>
+          </ul>
+        </div>
+      </nav>
+    -->
+      <header>
+        <h1>Daria Daina Tsukanova</h1>
+      </header>
+      <main>
+        <section id="contacts" class="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>E-mail: d.d.tsukanova@gmail.com</li>
+            <li>Telegram: @DariaDaina</li>
+            <li>
+              GitHub: <a href="https://github.com/DariaDaina">DariaDaina</a>
+            </li>
+          </ul>
+        </section>
+        <section id="objective" class="objective">
+          <h2>Objective</h2>
+          <p>
+            Recently graduated IT student with the goal of mastering web
+            development and finding a job in this field (or at least trying to
+            get practical skills to be able to work on my specialty).
+          </p>
+        </section>
+        <section id="skills" class="skills">
+          <h2>Professional Knowledge & Skills</h2>
+          <p>
+            Basic working knowledge (self-styding, a bit of work experience):
+          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+
+          <p>Basic theoretical knowledge (university labs):</p>
+          <ul>
+            <li>C#</li>
+            <li>Delphi</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>PL/SQL, SQL</li>
+            <li>XML</li>
+            <li>Android, Linux, Windows</li>
+            <li>Microsoft SQL Server, MySQL, Oracle</li>
+          </ul>
+        </section>
+        <section id="code" class="code">
+          <h2>Code example</h2>
+          <pre>
+        <code class="language-javascript">
+            function getMiddle(s)
+            {
+              let word = s;
+              let middleIndex = word.length / 2;
+              let middle = (word.length % 2 == 0) ? word[middleIndex - 1] + word[middleIndex] : word[middleIndex - 0.5];
+              return middle;
+            }
+        </code>
+    </pre>
+        </section>
+        <section id="employment" class="employment">
+          <h2>Employment History</h2>
+          <h3>Moscow University of marketing, LLC</h3>
+          <h4>Content Manager</h4>
+          <ul>
+            <li>SEO optimization</li>
+            <li>smm management (Instagram, Facebook)</li>
+            <li>
+              creating, editing, publishing content with diffrent CMS (Bitrix,
+              Joomla, Diafan, Wordpress, etc)
+            </li>
+          </ul>
+          <p>December 2018 - December 2019</p>
+
+          <h3>Advertising Production Company Effect</h3>
+          <h4>Internship</h4>
+
+          <ul>
+            <li>web development assistance (HTML+CSS+JS)</li>
+            <li>content filling of website</li>
+          </ul>
+          <p>May 2016 - July 2016</p>
+        </section>
+        <section id="education" class="education">
+          <h2>Education</h2>
+          <h3>Russian Technological University (MIREA),</h3>
+          <h4>B.S. in Information systems</h4>
+          <p>Graduated - March 2021</p>
+
+          <h3>Plekhanov Russian University of Economics,</h3>
+          <h4>Diploma in Information systems (cum laude)</h4>
+          <p>Graduated - July 2017</p>
+        </section>
+        <section id="english" class="english">
+          <h2>English level</h2>
+          <p>
+            B2 (Upper Intermidiate) - according to EPAM training center English
+            test
+          </p>
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </body>
+</html>
