@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/base16/dracula.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="aside">
+        <header>
+          <img
+            src="/img/profile-pic.jpg"
+            alt="Profile picture"
+            class="header-image"
+          />
+
+          <h1 class="title header-title">Daria D. Tsukanova</h1>
+        </header>
+
+        <section id="contacts" class="contacts">
+          <h2 class="title section-title section-title_light">Contacts</h2>
+          <ul>
+            <li>
+              E-mail:
+              <a href="mailto:d.d.tsukanova@gmail.com"
+                >d.d.tsukanova@gmail.com</a
+              >
+            </li>
+            <li>
+              Telegram:
+              <a href="https://telegram.me/DariaDaina" target="blank"
+                >@DariaDaina</a
+              >
+            </li>
+            <li>
+              GitHub:
+              <a href="https://github.com/DariaDaina" target="blank"
+                >DariaDaina</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section id="objective" class="objective">
+          <h2 class="title section-title section-title_light">Objective</h2>
+          <p>
+            Recently graduated IT student with the goal of mastering web
+            development and finding a job in this field (or at least trying to
+            get practical skills to be able to work on my specialty).
+          </p>
+        </section>
+        <section id="education" class="education">
+          <h2 class="title section-title section-title_light">Education</h2>
+          <h3 class="title">Russian Technological University (MIREA),</h3>
+          <h4 class="small-title">B.S. in Information systems</h4>
+          <p>Graduated - March 2021</p>
+  
+
+          <h3 class="title">Plekhanov Russian University of Economics,</h3>
+          <h4 class="small-title">Diploma in Information systems (cum laude)</h4>
+          <p>Graduated - July 2017</p>
+        </section>
+        <section id="english" class="english">
+          <h2 class="title section-title section-title_light">English level</h2>
+          <p>
+            B2 (Upper Intermidiate) - according to EPAM training center English
+            test
+          </p>
+        </section>
+      </aside>
+
+      <main class="main">
+        <section id="skills" class="skills">
+          <h2 class="title section-title section-title_dark">
+            Professional Knowledge & Skills
+          </h2>
+          <p>
+            Basic working knowledge (self-styding, a bit of work experience):
+          </p>
+          <ul class="list">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+
+          <p>Basic theoretical knowledge (university labs):</p>
+          <ul class="list">
+            <li>C#</li>
+            <li>Delphi</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>PL/SQL, SQL</li>
+            <li>XML</li>
+            <li>Android, Linux, Windows</li>
+            <li>Microsoft SQL Server, MySQL, Oracle</li>
+          </ul>
+        </section>
+        <section id="code" class="code">
+          <h2 class="section-title section-title_dark">Code example</h2>
+          <pre>
+            <code class="language-javascript">
+  function getMiddle(s)
+  {
+    let word = s;
+    let middleIndex = word.length / 2;
+    let middle = (word.length % 2 == 0) ? word[middleIndex - 1] + word[middleIndex] : word[middleIndex - 0.5];
+    return middle;
+  }
+            </code>
+          </pre>
+        </section>
+        <section id="employment" class="employment">
+          <h2 class="title section-title section-title_dark">Employment History</h2>
+          <h3 class="title">Moscow University of marketing, LLC</h3>
+          <h4 class="small-title">Content Manager</h4>
+          <ul class="list">
+            <li>SEO optimization</li>
+            <li>smm management (Instagram, Facebook)</li>
+            <li>
+              creating, editing, publishing content with diffrent CMS (Bitrix,
+              Joomla, Diafan, Wordpress, etc)
+            </li>
+          </ul>
+          <p>December 2018 - December 2019</p>
+
+          <h3 class="title">Advertising Production Company Effect</h3>
+          <h4 class="small-title">Internship</h4>
+
+          <ul class="list">
+            <li>web development assistance (HTML+CSS+JS)</li>
+            <li>content filling of website</li>
+          </ul>
+          <p>May 2016 - July 2016</p>
+        </section>
+      </main>
+      <footer class="footer">
+        <ul class="social-links">
+          <li class="">
+            <a class="link gh-link" href="https://github.com/DariaDaina"></a>
+          </li>
+          <li><a class="link rs-link" href="https://rs.school/js/"></a></li>
+          <li class="link">2021</li>
+        </ul>
+      </footer>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+  </body>
+</html>
